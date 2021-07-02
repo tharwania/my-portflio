@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer, Title } from '@angular/platform-browser';
 const svgImages: any = [
-  { name: "logo", path: "/assets/logo.svg" },
-  { name: "facebook", path: "/assets/social-media-icons/facebook.svg" },
-  { name: "github", path: "/assets/social-media-icons/github.svg" },
-  { name: "linkedin", path: "/assets/social-media-icons/linkedin.svg" },
-  { name: "stackoverflow", path: "/assets/social-media-icons/stackoverflow.svg" },
+  { name: "logo", path: "./assets/logo.svg" },
+  { name: "facebook", path: "./assets/social-media-icons/facebook.svg" },
+  { name: "github", path: "./assets/social-media-icons/github.svg" },
+  { name: "linkedin", path: "./assets/social-media-icons/linkedin.svg" },
+  { name: "stackoverflow", path: "./assets/social-media-icons/stackoverflow.svg" },
 ]
 
 import jsonData from '../assets/data/data.json';
