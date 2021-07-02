@@ -1,0 +1,13 @@
+<mat-card>
+    <div class="icon-div">
+        <mat-icon class="main-icon" color="primary">{{ skill.Icon }}</mat-icon>
+    </div>
+   
+    <h1>{{ skill.Title }}</h1>
+    <p>{{ skill.Subtitle }}.</p>
+
+    <h2>Techs</h2>
+    <ul class="list">
+        <li *ngFor="let skillName of skill.Skills">{{skillName}}</li>
+    </ul>
+</mat-card>
