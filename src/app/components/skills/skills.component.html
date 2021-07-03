@@ -1,10 +1,10 @@
 <mat-card>
     <div class="icon-div">
-        <mat-icon class="main-icon" color="primary">{{ skill.Icon }}</mat-icon>
+        <mat-icon class="main-icon" [svgIcon]="skill.Icon" color="primary"></mat-icon>
     </div>
    
     <h1>{{ skill.Title }}</h1>
-    <p>{{ skill.Subtitle }}.</p>
+    <p>{{ skill.Subtitle }}</p>
 
     <h2>Techs</h2>
     <ul class="list">

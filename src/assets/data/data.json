@@ -14,7 +14,7 @@
     "Main": {
         "Show": true,
         "Title": "Full-stack Developer",
-        "SubTitle": "I design and code beautifully simple things, and I love what I do.",
+        "SubTitle": "I have 6 years of professional experience as a full stack developer. Designing and developing enterprise level software with cloud architecting pattern.",
         "Avatar": {
             "Show": true,
             "Value": "assets/my-avtr.svg"
@@ -23,13 +23,13 @@
     "Introduction": {
         "Show": true,
         "Title": "Hi, I am Avinash Tharwani, Nice to meet you.",
-        "Content": " Since beginning my journey as a freelance designer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time."
+        "Content": " Since beginning my journey as a profrssional developer nearly 7 years ago, I've done work for various organizations, startups, and collaborated with talented people to create solutions and products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one thing at a time."
     },
     "SkillCardContainer": {
         "Show": true,
         "SkillCards": [
             {
-                "Icon": "code",
+                "Icon": "frontend",
                 "Title": "Front-end Developer",
                 "Subtitle": "I design not just look and feel but expiences.",
                 "Skills": [
@@ -40,22 +40,24 @@
                     "Bootstrap",
                     "Ionic",
                     "HTML/CSS",
+                    "Flexbox",
                     "jQuery"
                 ]
             },
             {
-                "Icon": "code",
-                "Title": "Front-end Developer",
-                "Subtitle": "I design not just look and feel but expiences.",
+                "Icon": "backend",
+                "Title": "Back-end Developer",
+                "Subtitle": "I design elegent archtecture, simple solutions to solve problems.",
                 "Skills": [
-                    "Angular",
-                    "Typescript",
-                    "Javascript",
-                    "Angular Material",
-                    "Bootstrap",
-                    "Ionic",
-                    "HTML/CSS",
-                    "jQuery"
+                    "C#",
+                    ".NET 5, dotnet core",
+                    "REST APIs / MVC / ASP.NET",
+                    "NoSql / CosmosDB",
+                    "SQL / RDMS / Sql Server",
+                    "Service Oriented Archetecture",
+                    "Microservices",
+                    "Queues / RabbitMQ / MSMQ",
+                    "Firebase"
                 ]
             }
         ]
@@ -80,19 +82,19 @@
         "SocialMediaIcons": [
             {
                 "Icon": "facebook",
-                "Link": ""
+                "Link": "https://www.facebook.com/avinash.tharwani.5"
             },
             {
                 "Icon": "stackoverflow",
-                "Link": ""
+                "Link": "https://stackoverflow.com/users/3446212/avinash"
             },
             {
                 "Icon": "linkedin",
-                "Link": ""
+                "Link": "https://www.linkedin.com/in/tharwania/"
             },
             {
                 "Icon": "github",
-                "Link": ""
+                "Link": "https://github.com/tharwania"
             }
         ]
     }

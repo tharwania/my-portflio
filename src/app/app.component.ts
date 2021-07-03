@@ -7,6 +7,9 @@ const svgImages: any = [
   { name: "github", path: "./assets/social-media-icons/github.svg" },
   { name: "linkedin", path: "./assets/social-media-icons/linkedin.svg" },
   { name: "stackoverflow", path: "./assets/social-media-icons/stackoverflow.svg" },
+  // skill icons
+  { name: "backend", path: "./assets/skill-icons/backend.svg" },
+  { name: "frontend", path: "./assets/skill-icons/frontend.svg" },
 ]
 
 import jsonData from '../assets/data/data.json';

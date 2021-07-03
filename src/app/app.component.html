@@ -7,13 +7,12 @@
 
 <mat-card class="main-card" *ngIf="data.Main.Show">
   <mat-card-header class="center-div">
-    <div mat-card-avatar></div>
     <mat-card-title class="mat-headline">{{ data.Main.Title }}</mat-card-title>
     <mat-card-subtitle>{{ data.Main.SubTitle }}</mat-card-subtitle>
   </mat-card-header>
   <mat-card-content>
-    <img *ngIf="data.Main.Avatar.Show" class="avtar" mat-card-image [src]="data.Main.Avatar.Value"
-      alt="Avtar of Avinash Tharwani">
+    <div *ngIf="data.Main.Avatar.Show" mat-card-avatar class="avtar" mat-card-image [ngStyle]="{ 'background-image': 'url(' + data.Main.Avatar.Value + ')' }"
+      alt="Avtar of Avinash Tharwani"></div>
   </mat-card-content>
 </mat-card>
 
@@ -59,9 +58,9 @@
   <section class="social-media-icons">
     <div class="button-row">
       <div class="flex-container">
-        <button *ngFor="let socialMediaIcon of data.Footer.SocialMediaIcons" mat-icon-button aria-label="Example icon button with a vertical three dot icon">
-          <mat-icon [svgIcon]="socialMediaIcon.Icon"></mat-icon>
-        </button>
+        <a *ngFor="let socialMediaIcon of data.Footer.SocialMediaIcons" [href]="socialMediaIcon.Link" target="_blank"  mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+          <mat-icon [svgIcon]="socialMediaIcon.Icon" ></mat-icon>
+        </a>
       </div>
     </div>
   </section>

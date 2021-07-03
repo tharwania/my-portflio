@@ -32,9 +32,10 @@ $medium: 768px;
     }
 
     mat-card-title {
-        font-size    : 40px;
-        font-weight  : 700;
-        font-family  : cursive;
+        font-size  : 40px;
+        font-weight: 700;
+        font-family: "Indie Flower script=latin rev=2";
+        ;
         margin-bottom: 40px;
         line-height  : 1;
     }
@@ -48,14 +49,15 @@ $medium: 768px;
     mat-card-content {
         justify-content: center;
         display        : flex;
-        ;
+        margin-top: 38px;
 
         .avtar {
-            width        : 210px;
-            margin       : 2rem 0;
-            height       : auto;
-            max-width    : 100%;
+
+            background-size: cover;
+            width: 210px;
+            height: 210px;
             border-radius: 50%;
+            background-position: center;
 
         }
     }
@@ -82,9 +84,10 @@ $medium: 768px;
     }
 
     .mat-card-title {
-        font-size    : 1.5rem;
-        font-weight  : 700;
-        font-family  : cursive;
+        font-size  : 1.5rem;
+        font-weight: 700;
+        font-family: "Indie Flower script=latin rev=2";
+        ;
         margin-bottom: 40px;
         line-height  : 1;
         text-align   : center;
@@ -215,9 +218,10 @@ $medium: 768px;
     background-color: #3f51b5;
 
     .mat-title {
-        font-size    : 1.5rem;
-        font-weight  : 700;
-        font-family  : cursive;
+        font-size  : 1.5rem;
+        font-weight: 700;
+        font-family: "Indie Flower script=latin rev=2";
+        ;
         margin-bottom: 40px;
         line-height  : 1;
         text-align   : center;
@@ -227,12 +231,13 @@ $medium: 768px;
         @media screen and (max-width: $small) {
             width: 80%;
         }
-    
+
         @media screen and (min-width: $medium) {
             width: 30%;
         }
+
         .button-row {
-           
+
             .flex-container {
                 display        : flex;
                 justify-content: space-between;
@@ -241,8 +246,8 @@ $medium: 768px;
         }
     }
 
-    .credits{
+    .credits {
         margin-top: 14px;
-        opacity: 0.6;
+        opacity   : 0.6;
     }
 }
