@@ -1,5 +1,5 @@
 <mat-toolbar class="main-toolbar" *ngIf="data.Toolbar.Show">
-  <a mat-icon-button aria-label="logo icon" href="/" *ngIf="data.Toolbar.Logo.Show">
+  <a mat-icon-button aria-label="logo icon" routerLink="/" *ngIf="data.Toolbar.Logo.Show">
     <mat-icon color="primary" [svgIcon]="data.Toolbar.Logo.Value" class="logo"></mat-icon>
   </a>
   <button mat-button color="primary" *ngIf="data.Toolbar.Contact.Show">Contact</button>
